@@ -28,6 +28,8 @@
 
 ---
 
+[![Day 01](https://badgen.net/badge/01/%E2%98%85%E2%98%85/yellow)](my_solutions/day01)
+
 (TODO: add final picture of AoC calendar)
 
 ## 🗣️ About

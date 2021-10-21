@@ -1,0 +1,34 @@
+(())
+:-> solution=0 <-:
+
+()()
+:-> solution=0 <-:
+
+(((
+:-> solution=3 <-:
+
+(()(()(
+:-> solution=3 <-:
+
+))(((((
+:-> solution=3 <-:
+
+())
+:-> solution=-1 <-:
+
+))(
+:-> solution=-1 <-:
+
+)))
+:-> solution=-3 <-:
+
+)())())
+:-> solution=-3 <-:
+
+*-*-*
+
+)
+:-> solution=1 <-:
+
+()())
+:-> solution=5 <-:
