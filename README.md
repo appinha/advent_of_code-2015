@@ -29,6 +29,7 @@
 ---
 
 [![Day 01](https://badgen.net/badge/01/%E2%98%85%E2%98%85/yellow)](my_solutions/day01)
+[![Day 02](https://badgen.net/badge/02/%E2%98%85%E2%98%85/yellow)](my_solutions/day02)
 
 (TODO: add final picture of AoC calendar)
 
@@ -107,8 +108,8 @@ make new day=02
 | DAY							| PUZZLE TITLE  | PUZZLE SUMMARY
 | :-:							| :-			| :-
 | [📁 01](my_solutions/day_01)	| **Not Quite Lisp**		| 📃 **Input:** a string of opening (up +1) and closing (down -1) parenthesis.<br />⭐ **Part One:** follow the directions (parenthesis) and find the right floor. <br />⭐ **Part Two:** find the position of the first character that causes entering the basement (floor -1).
+| [📁 02](my_solutions/day_02)	| **I Was Told There Would Be No Math**		| 📃 **Input:** list of dimensions of present boxes.<br />⭐ **Part One:** find the total area of wrapping paper needed. <br />⭐ **Part Two:** find the total length of ribbon needed.
 <!--
-| [📁 02](my_solutions/day_02)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 03](my_solutions/day_03)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 04](my_solutions/day_04)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 05](my_solutions/day_05)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
