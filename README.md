@@ -52,24 +52,60 @@
 
 ## 📑 Contents
 
-My solutions for the puzzles are available in the folder [📁 my_solutions](my_solutions) and are organized into subfolders for each day of the event. There is also a subfolder called [📁 common_core](common_core) containing the main framework developed to streamline coding of puzzle solutions.
+My solutions for the puzzles are available in the folder [📁 my_solutions](my_solutions) and are organized into subfolders for each day of the event.
+
+In this folder's root, the following files can be found:
+
+* `puzzle_solver.py` - main framework developed to streamline coding.
+* `solve_puzzles.py` - script for running the puzzle solving codes.
+* `Makefile` - used for starting the execution of the above script.
 
 Inside each subfolder, the following files can be found:
 
 * `input_test.txt` - text file containing input from tests given in the puzzle.
 * `input.txt` - text file containing my personal input for the puzzle.
 * `main.py` - Python code for solving the puzzle.
-* `Makefile` - script for running the puzzle solving code.
 
 ## 🛠️ Usage
 
-(TODO: write)
+**Solve puzzle for a certain day:**
+
+```
+make day=01
+```
+
+**Solve puzzle for a certain day and part:**
+
+```
+make day=08 part=1
+```
+
+```
+make day=08 part=2
+```
+
+**Solve puzzle for testing input:**
+
+```
+make test day=12
+```
+
+```
+make test day=12 part=1
+```
+
+**Create a new day folder from template:**
+
+```
+make new day=02
+```
 
 ## 🗓️ Table of puzzles
 
 | DAY							| PUZZLE TITLE  | PUZZLE SUMMARY
 | :-:							| :-			| :-
-| [📁 01](my_solutions/day_01)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
+| [📁 01](my_solutions/day_01)	| **Not Quite Lisp**		| 📃 **Input:** a string of opening (up +1) and closing (down -1) parenthesis.<br />⭐ **Part One:** follow the directions (parenthesis) and find the right floor. <br />⭐ **Part Two:** find the position of the first character that causes entering the basement (floor -1).
+<!--
 | [📁 02](my_solutions/day_02)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 03](my_solutions/day_03)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 04](my_solutions/day_04)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
@@ -94,3 +130,4 @@ Inside each subfolder, the following files can be found:
 | [📁 23](my_solutions/day_23)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 24](my_solutions/day_24)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 25](my_solutions/day_25)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
+ -->
