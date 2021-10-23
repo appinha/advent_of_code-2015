@@ -4,7 +4,7 @@
 
 <p align="center">
 	<i>My solutions for <b>Advent of Code 2015</b>.</i>
-</p	>
+</p>
 
 <p align="center">
 	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/appinha/adventofcode_2015?color=blueviolet" />
@@ -30,6 +30,7 @@
 
 [![Day 01](https://badgen.net/badge/01/%E2%98%85%E2%98%85/yellow)](my_solutions/day01)
 [![Day 02](https://badgen.net/badge/02/%E2%98%85%E2%98%85/yellow)](my_solutions/day02)
+[![Day 03](https://badgen.net/badge/03/%E2%98%85%E2%98%85/yellow)](my_solutions/day03)
 
 (TODO: add final picture of AoC calendar)
 
@@ -105,12 +106,12 @@ make new day=02
 
 ## 🗓️ Table of puzzles
 
-| DAY							| PUZZLE TITLE  | PUZZLE SUMMARY
-| :-:							| :-			| :-
+| DAY							| PUZZLE TITLE	| PUZZLE SUMMARY
+| :-:							| :-						| :-
 | [📁 01](my_solutions/day_01)	| **Not Quite Lisp**		| 📃 **Input:** a string of opening (up +1) and closing (down -1) parenthesis.<br />⭐ **Part One:** follow the directions (parenthesis) and find the right floor. <br />⭐ **Part Two:** find the position of the first character that causes entering the basement (floor -1).
 | [📁 02](my_solutions/day_02)	| **I Was Told There Would Be No Math**		| 📃 **Input:** list of dimensions of present boxes.<br />⭐ **Part One:** find the total area of wrapping paper needed. <br />⭐ **Part Two:** find the total length of ribbon needed.
+| [📁 03](my_solutions/day_03)	| **Perfectly Spherical Houses in a Vacuum**		| 📃 **Input:** a string of cardinal directions.<br />⭐ **Part One:** find how many houses receive at least one present. <br />⭐ **Part Two:** find how many houses receive at least one present.
 <!--
-| [📁 03](my_solutions/day_03)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 04](my_solutions/day_04)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 05](my_solutions/day_05)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 06](my_solutions/day_06)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .

@@ -1,0 +1,19 @@
+>
+:-> solution=2 <-:
+
+^>v<
+:-> solution=4 <-:
+
+^v^v^v^v^v
+:-> solution=2 <-:
+
+*-*-*
+
+^v
+:-> solution=3 <-:
+
+^>v<
+:-> solution=3 <-:
+
+^v^v^v^v^v
+:-> solution=11 <-:
