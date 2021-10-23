@@ -9,4 +9,4 @@ test:
 	@PYTHONPATH=".:$PYTHONPATH" python3 solve_puzzles.py $(day) "input_test.txt" $(part)
 
 new:
-	@cp -R day_ day_$(day)/
+	@[ ! -d day_$(day)/ ] && cp -R day_ day_$(day)/
