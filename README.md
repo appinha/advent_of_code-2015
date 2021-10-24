@@ -31,6 +31,8 @@
 [![Day 01](https://badgen.net/badge/01/%E2%98%85%E2%98%85/yellow)](my_solutions/day01)
 [![Day 02](https://badgen.net/badge/02/%E2%98%85%E2%98%85/yellow)](my_solutions/day02)
 [![Day 03](https://badgen.net/badge/03/%E2%98%85%E2%98%85/yellow)](my_solutions/day03)
+[![Day 04](https://badgen.net/badge/04/%E2%98%85%E2%98%85/yellow)](my_solutions/day04)
+[![Day 05](https://badgen.net/badge/05/%E2%98%85%E2%98%85/yellow)](my_solutions/day05)
 
 (TODO: add final picture of AoC calendar)
 
@@ -112,8 +114,8 @@ make new day=02
 | [📁 02](my_solutions/day_02)	| **I Was Told There Would Be No Math**		| 📃 **Input:** list of dimensions of present boxes.<br />⭐ **Part One:** find the total area of wrapping paper needed. <br />⭐ **Part Two:** find the total length of ribbon needed.
 | [📁 03](my_solutions/day_03)	| **Perfectly Spherical Houses in a Vacuum**		| 📃 **Input:** a string of cardinal directions.<br />⭐ **Part One:** find how many houses receive at least one present. <br />⭐ **Part Two:** find how many houses receive at least one present.
 | [📁 04](my_solutions/day_04)	| **The Ideal Stocking Stuffer**		| 📃 **Input:** a secret key.<br />⭐ **Part One:** find the lowest positive number (decimal) that, combined with the secret key, produces a MD5 hash that starts with five zeros. <br />⭐ **Part Two:** same as befor, but for six zeros.
+| [📁 05](my_solutions/day_05)	| **Doesn't He Have Intern-Elves For This?**		| 📃 **Input:** a list of strings.<br />⭐ **Part One:** find how many strings are nice (according to given rules). <br />⭐ **Part Two:** same as before, but with different rules.
 <!--
-| [📁 05](my_solutions/day_05)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 06](my_solutions/day_06)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 07](my_solutions/day_07)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 08](my_solutions/day_08)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
