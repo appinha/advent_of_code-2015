@@ -35,6 +35,7 @@
 [![Day 05](https://badgen.net/badge/05/%E2%98%85%E2%98%85/yellow)](my_solutions/day05)
 [![Day 06](https://badgen.net/badge/06/%E2%98%85%E2%98%85/yellow)](my_solutions/day06)
 [![Day 07](https://badgen.net/badge/07/%E2%98%85%E2%98%85/yellow)](my_solutions/day07)
+[![Day 08](https://badgen.net/badge/08/%E2%98%85%E2%98%85/yellow)](my_solutions/day08)
 
 (TODO: add final picture of AoC calendar)
 
@@ -119,8 +120,8 @@ make new day=02
 | [📁 05](my_solutions/day_05)	| **Doesn't He Have Intern-Elves For This?**		| 📃 **Input:** a list of strings.<br />⭐ **Part One:** find how many strings are nice (according to given rules). <br />⭐ **Part Two:** same as before, but with different rules.
 | [📁 06](my_solutions/day_06)	| **Probably a Fire Hazard**		| 📃 **Input:** instructions on how to display the ideal lighting configuration.<br />⭐ **Part One:** find how many lights are lit after following the instructions. <br />⭐ **Part Two:** find the total brightness of all lights combined after following the instructions.
 | [📁 07](my_solutions/day_07)	| **Some Assembly Required**		| 📃 **Input:** instructions for assembling a circuit of wires and bitwise logic gates.<br />⭐ **Part One:** assemble the circuit by following the instructions to find signal provided to wire `a`. <br />⭐ **Part Two:** same as before, but overriding wire `b`'s signal with part one's answer.
+| [📁 08](my_solutions/day_08)	| **Matchsticks**		| 📃 **Input:** a file that contains a list of double-quoted string literals.<br />⭐ **Part One:** find the number of characters of code for string literals minus the number of characters in memory for the values of the strings in total for the entire file. <br />⭐ **Part Two:** find the total number of characters to represent the newly encoded strings minus the number of characters of code in each original string literal.
 <!--
-| [📁 08](my_solutions/day_08)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 09](my_solutions/day_09)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 10](my_solutions/day_10)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 11](my_solutions/day_11)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
