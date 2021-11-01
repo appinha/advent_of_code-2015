@@ -1,0 +1,15 @@
+123 -> x
+456 -> y
+x AND y -> z
+NOT x -> k
+NOT z -> i
+i LSHIFT 2 -> j
+j RSHIFT 4 -> m
+19 -> n
+m OR n -> a
+:-> solution=-1 <-:
+
+*-*-*
+
+123 -> a
+:-> solution=123 <-:

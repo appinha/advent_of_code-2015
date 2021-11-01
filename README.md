@@ -34,6 +34,7 @@
 [![Day 04](https://badgen.net/badge/04/%E2%98%85%E2%98%85/yellow)](my_solutions/day04)
 [![Day 05](https://badgen.net/badge/05/%E2%98%85%E2%98%85/yellow)](my_solutions/day05)
 [![Day 06](https://badgen.net/badge/06/%E2%98%85%E2%98%85/yellow)](my_solutions/day06)
+[![Day 07](https://badgen.net/badge/07/%E2%98%85%E2%98%85/yellow)](my_solutions/day07)
 
 (TODO: add final picture of AoC calendar)
 
@@ -117,8 +118,8 @@ make new day=02
 | [📁 04](my_solutions/day_04)	| **The Ideal Stocking Stuffer**		| 📃 **Input:** a secret key.<br />⭐ **Part One:** find the lowest positive number (decimal) that, combined with the secret key, produces a MD5 hash that starts with five zeros. <br />⭐ **Part Two:** same as befor, but for six zeros.
 | [📁 05](my_solutions/day_05)	| **Doesn't He Have Intern-Elves For This?**		| 📃 **Input:** a list of strings.<br />⭐ **Part One:** find how many strings are nice (according to given rules). <br />⭐ **Part Two:** same as before, but with different rules.
 | [📁 06](my_solutions/day_06)	| **Probably a Fire Hazard**		| 📃 **Input:** instructions on how to display the ideal lighting configuration.<br />⭐ **Part One:** find how many lights are lit after following the instructions. <br />⭐ **Part Two:** find the total brightness of all lights combined after following the instructions.
+| [📁 07](my_solutions/day_07)	| **Some Assembly Required**		| 📃 **Input:** instructions for assembling a circuit of wires and bitwise logic gates.<br />⭐ **Part One:** assemble the circuit by following the instructions to find signal provided to wire `a`. <br />⭐ **Part Two:** same as before, but overriding wire `b`'s signal with part one's answer.
 <!--
-| [📁 07](my_solutions/day_07)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 08](my_solutions/day_08)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 09](my_solutions/day_09)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 10](my_solutions/day_10)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
