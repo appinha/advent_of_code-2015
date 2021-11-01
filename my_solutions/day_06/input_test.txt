@@ -1,0 +1,27 @@
+turn on 0,0 through 999,999
+:-> solution=1000000 <-:
+
+toggle 0,0 through 999,0
+:-> solution=1000 <-:
+
+turn on 0,0 through 999,999
+turn off 499,499 through 500,500
+:-> solution=999996 <-:
+
+*-*-*
+
+turn on 0,0 through 0,0
+:-> solution=1 <-:
+
+turn on 0,0 through 1,1
+:-> solution=4 <-:
+
+turn off 0,0 through 0,0
+:-> solution=0 <-:
+
+turn on 0,0 through 1,1
+turn off 0,0 through 0,0
+:-> solution=3 <-:
+
+toggle 0,0 through 999,999
+:-> solution=2000000 <-:
