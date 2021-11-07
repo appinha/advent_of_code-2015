@@ -38,6 +38,7 @@
 [![Day 08](https://badgen.net/badge/08/%E2%98%85%E2%98%85/yellow)](my_solutions/day08)
 [![Day 09](https://badgen.net/badge/09/%E2%98%85%E2%98%85/yellow)](my_solutions/day09)
 [![Day 10](https://badgen.net/badge/10/%E2%98%85%E2%98%85/yellow)](my_solutions/day10)
+[![Day 11](https://badgen.net/badge/11/%E2%98%85%E2%98%85/yellow)](my_solutions/day11)
 
 (TODO: add final picture of AoC calendar)
 
@@ -125,8 +126,8 @@ make new day=02
 | [📁 08](my_solutions/day_08)	| **Matchsticks**		| 📃 **Input:** a file that contains a list of double-quoted string literals.<br />⭐ **Part One:** find the number of characters of code for string literals minus the number of characters in memory for the values of the strings in total for the entire file. <br />⭐ **Part Two:** find the total number of characters to represent the newly encoded strings minus the number of characters of code in each original string literal.
 | [📁 09](my_solutions/day_09)	| **All in a Single Night**		| 📃 **Input:** a list of distances between locations.<br />⭐ **Part One:** find the distance of the shortest route for visiting each location once. <br />⭐ **Part Two:** find the distance of the longest route for visiting each location once.
 | [📁 10](my_solutions/day_10)	| **Elves Look, Elves Say**		| 📃 **Input:** a short sequence of digits.<br />⭐ **Part One:** starting with the digits from the puzzle input, apply the look-and-say sequence 40 times to find the length of the result. <br />⭐ **Part Two:** now for 50 times.
+| [📁 11](my_solutions/day_11)	| **Corporate Policy**		| 📃 **Input:** a password (a string of 8 lowercase characters).<br />⭐ **Part One:** given Santa's method and Security-Elf requirements, find the next password. <br />⭐ **Part Two:** find the next password for the password found in part one.
 <!--
-| [📁 11](my_solutions/day_11)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 12](my_solutions/day_12)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 13](my_solutions/day_13)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 14](my_solutions/day_14)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
