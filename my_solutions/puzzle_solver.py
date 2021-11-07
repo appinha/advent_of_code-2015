@@ -48,7 +48,7 @@ class PuzzleSolver:
                 input, solution = raw_test.split("\n:-> solution=")
                 test = {
                     "raw_input": self._split_raw_input(input, delimiter),
-                    "solution": int(solution.replace(" <-:", ""))
+                    "solution": solution.replace(" <-:", "")
                 }
                 tests.append(test)
 
