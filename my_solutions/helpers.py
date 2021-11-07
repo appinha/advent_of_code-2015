@@ -1,3 +1,5 @@
+import itertools
+
 def is_int(object):
     return (isinstance(object, int))
 
@@ -15,3 +17,9 @@ def str_to_int(object):
         return int(object)
     else:
         return object
+
+def groupby(object):
+    return [
+        {"element": k, "occurrences": list(v)}
+        for k, v in itertools.groupby(object)
+    ]
