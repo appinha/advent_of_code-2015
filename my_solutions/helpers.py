@@ -3,6 +3,12 @@ import itertools
 def is_int(object):
     return (isinstance(object, int))
 
+def is_float(object):
+    return (isinstance(object, float))
+
+def is_number(object):
+    return is_int(object) or is_float(object)
+
 def is_str(object):
     return (isinstance(object, str))
 
