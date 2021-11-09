@@ -39,6 +39,7 @@
 [![Day 09](https://badgen.net/badge/09/%E2%98%85%E2%98%85/yellow)](my_solutions/day09)
 [![Day 10](https://badgen.net/badge/10/%E2%98%85%E2%98%85/yellow)](my_solutions/day10)
 [![Day 11](https://badgen.net/badge/11/%E2%98%85%E2%98%85/yellow)](my_solutions/day11)
+[![Day 12](https://badgen.net/badge/12/%E2%98%85%E2%98%85/yellow)](my_solutions/day12)
 
 (TODO: add final picture of AoC calendar)
 
@@ -127,8 +128,8 @@ make new day=02
 | [📁 09](my_solutions/day_09)	| **All in a Single Night**		| 📃 **Input:** a list of distances between locations.<br />⭐ **Part One:** find the distance of the shortest route for visiting each location once. <br />⭐ **Part Two:** find the distance of the longest route for visiting each location once.
 | [📁 10](my_solutions/day_10)	| **Elves Look, Elves Say**		| 📃 **Input:** a short sequence of digits.<br />⭐ **Part One:** starting with the digits from the puzzle input, apply the look-and-say sequence 40 times to find the length of the result. <br />⭐ **Part Two:** now for 50 times.
 | [📁 11](my_solutions/day_11)	| **Corporate Policy**		| 📃 **Input:** a password (a string of 8 lowercase characters).<br />⭐ **Part One:** given Santa's method and Security-Elf requirements, find the next password. <br />⭐ **Part Two:** find the next password for the password found in part one.
+| [📁 12](my_solutions/day_12)	| **JSAbacusFramework.io**		| 📃 **Input:** a json document containing arrays, objects, numbers, and strings.<br />⭐ **Part One:** find all of the numbers throughout the document and add them together. <br />⭐ **Part Two:** same as before, but ignoring any object (and all of its children) which has any property with the value "red".
 <!--
-| [📁 12](my_solutions/day_12)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 13](my_solutions/day_13)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 14](my_solutions/day_14)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 15](my_solutions/day_15)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
