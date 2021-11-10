@@ -1,4 +1,5 @@
 from puzzle_solver import PuzzleSolver, run_puzzle_solver
+from helpers import get_unique_permutations
 from pprint import pprint
 from collections import defaultdict
 import itertools
@@ -22,13 +23,6 @@ class DayPuzzleSolver(PuzzleSolver):
 
     def _get_possible_distances(self, raw_input):
 
-        def get_unique_permutations(locations):
-            reversed_permutations = set()
-            for permutation in itertools.permutations(locations):
-                if permutation not in reversed_permutations:
-                    reversed_permutations.add(tuple(reversed(permutation)))
-                    yield permutation
-
         def calculate_distance(locations):
             distance = 0
             for i in range(1, len(locations)):
@@ -37,7 +31,7 @@ class DayPuzzleSolver(PuzzleSolver):
 
         location_by_location_by_distance = self._get_input(raw_input)
         locations = list(location_by_location_by_distance.keys())
-        permutations = list(get_unique_permutations(locations))
+        permutations = get_unique_permutations(locations)
 
         distances = []
         for locations in permutations:
