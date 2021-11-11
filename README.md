@@ -40,6 +40,7 @@
 [![Day 10](https://badgen.net/badge/10/%E2%98%85%E2%98%85/yellow)](my_solutions/day10)
 [![Day 11](https://badgen.net/badge/11/%E2%98%85%E2%98%85/yellow)](my_solutions/day11)
 [![Day 12](https://badgen.net/badge/12/%E2%98%85%E2%98%85/yellow)](my_solutions/day12)
+[![Day 13](https://badgen.net/badge/13/%E2%98%85%E2%98%85/yellow)](my_solutions/day13)
 
 (TODO: add final picture of AoC calendar)
 
@@ -129,8 +130,8 @@ make new day=02
 | [📁 10](my_solutions/day_10)	| **Elves Look, Elves Say**		| 📃 **Input:** a short sequence of digits.<br />⭐ **Part One:** starting with the digits from the puzzle input, apply the look-and-say sequence 40 times to find the length of the result. <br />⭐ **Part Two:** now for 50 times.
 | [📁 11](my_solutions/day_11)	| **Corporate Policy**		| 📃 **Input:** a password (a string of 8 lowercase characters).<br />⭐ **Part One:** given Santa's method and Security-Elf requirements, find the next password. <br />⭐ **Part Two:** find the next password for the password found in part one.
 | [📁 12](my_solutions/day_12)	| **JSAbacusFramework.io**		| 📃 **Input:** a json document containing arrays, objects, numbers, and strings.<br />⭐ **Part One:** find all of the numbers throughout the document and add them together. <br />⭐ **Part Two:** same as before, but ignoring any object (and all of its children) which has any property with the value "red".
+| [📁 13](my_solutions/day_13)	| **Knights of the Dinner Table**		| 📃 **Input:** a guest list detailing the amount their happiness would increase or decrease depending on who sits next to them.<br />⭐ **Part One:** find the total change in happiness for the optimal seating arrangement, i.e. where maximum happiness is achieved. <br />⭐ **Part Two:** same as before, but adding a neutral guest to the table.
 <!--
-| [📁 13](my_solutions/day_13)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 14](my_solutions/day_14)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 15](my_solutions/day_15)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
 | [📁 16](my_solutions/day_16)	| **Title**		| 📃 **Input:** .<br />⭐ **Part One:** . <br />⭐ **Part Two:** .
