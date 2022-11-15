@@ -1,0 +1,3 @@
+[submodule "my_solutions/aoc_framework"]
+	path = my_solutions/aoc_framework
+	url = git@github.com:appinha/advent_of_code-framework.git
