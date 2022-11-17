@@ -1,17 +1,23 @@
 2x3x4
 :-> solution=58 <-:
 
+<--->
+
 1x1x10
 :-> solution=43 <-:
+
+<--->
 
 2x3x4
 1x1x10
 :-> solution=101 <-:
 
-*-*-*
+<===>
 
 2x3x4
 :-> solution=34 <-:
+
+<--->
 
 1x1x10
 :-> solution=14 <-:
