@@ -1,14 +1,11 @@
-from puzzle_solver import PuzzleSolver, run_puzzle_solver
 from pprint import pprint
+
 import re
 
 
-delimiter = "\n"
-
-
-class DayPuzzleSolver(PuzzleSolver):
-    def __init__(self, input_file, delimiter):
-        PuzzleSolver.__init__(self, input_file, delimiter)
+class DayPuzzleSolver():
+    def __init__(self):
+        self.delimiter = "\n"
 
     def _get_input(self, raw_input, init_state=False):
         reindeers = []
@@ -40,15 +37,6 @@ class DayPuzzleSolver(PuzzleSolver):
             seconds -= (reindeer["run_time"] + reindeer["rest_time"])
         return total_km
 
-    def solve_part_1(self, raw_input):
-        reindeers = self._get_input(raw_input)
-        top_runner = {}
-        for reindeer in reindeers:
-            reindeer["total_km"] = self._get_total_km_for(reindeer, 2503)
-            if "total_km" not in top_runner or reindeer["total_km"] > top_runner["total_km"]:
-                top_runner = reindeer
-        return top_runner["total_km"]
-
     def _update_reindeer_state(self, reindeer):
         if reindeer["curr_state"] == "running" and reindeer["elapsed_secs"] < reindeer["run_time"]:
             reindeer["total_km"] += reindeer["speed"]
@@ -73,6 +61,15 @@ class DayPuzzleSolver(PuzzleSolver):
     def _find_winner_points(self, reindeers):
         return max([reindeer["points"] for reindeer in reindeers])
 
+    def solve_part_1(self, raw_input):
+        reindeers = self._get_input(raw_input)
+        top_runner = {}
+        for reindeer in reindeers:
+            reindeer["total_km"] = self._get_total_km_for(reindeer, 2503)
+            if "total_km" not in top_runner or reindeer["total_km"] > top_runner["total_km"]:
+                top_runner = reindeer
+        return top_runner["total_km"]
+
     def solve_part_2(self, raw_input):
         reindeers = self._get_input(raw_input, init_state=True)
         seconds = 2503
@@ -82,7 +79,3 @@ class DayPuzzleSolver(PuzzleSolver):
             self._award_points(reindeers)
             seconds -= 1
         return self._find_winner_points(reindeers)
-
-
-if __name__ == '__main__':
-    run_puzzle_solver(DayPuzzleSolver, delimiter)
