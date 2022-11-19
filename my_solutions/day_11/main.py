@@ -1,16 +1,12 @@
-from puzzle_solver import PuzzleSolver, run_puzzle_solver
-from helpers import groupby
 from pprint import pprint
-import itertools
+
+from helpers import groupby
 from string import ascii_lowercase
 
 
-delimiter = ""
-
-
-class DayPuzzleSolver(PuzzleSolver):
-    def __init__(self, input_file, delimiter):
-        PuzzleSolver.__init__(self, input_file, delimiter)
+class DayPuzzleSolver():
+    def __init__(self):
+        self.delimiter = ""
         self.alphabet_trios = self._get_sequenced_trios(ascii_lowercase)
 
     def _get_sequenced_trios(self, string):
@@ -40,18 +36,18 @@ class DayPuzzleSolver(PuzzleSolver):
                 break
         return "".join(chars)
 
-    def has_3_letter_sequence(self, password):
+    def _has_3_letter_sequence(self, password):
         for trio in self._get_sequenced_trios(password):
             if trio in self.alphabet_trios:
                 return True
         return False
 
-    def has_pairs(self, password):
+    def _has_pairs(self, password):
         pairs = [g["element"] for g in groupby(password) if len(g["occurrences"]) > 1]
         return len(set(pairs)) > 1
 
     def _check_requirements(self, password):
-        return self.has_3_letter_sequence(password) and self.has_pairs(password)
+        return self._has_3_letter_sequence(password) and self._has_pairs(password)
 
     def _get_new_password(self, current):
         new_password = self._get_next_valid_password(current)
@@ -64,7 +60,3 @@ class DayPuzzleSolver(PuzzleSolver):
 
     def solve_part_2(self, raw_input):
         return self._get_new_password(self._get_new_password(raw_input))
-
-
-if __name__ == '__main__':
-    run_puzzle_solver(DayPuzzleSolver, delimiter)

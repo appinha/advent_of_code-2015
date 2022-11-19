@@ -1,19 +1,27 @@
 aabbaabb
 :-> solution=aabbaabc <-:
 
+<--->
+
 aabbiabb
 :-> solution=aabbjabc <-:
+
+<--->
 
 aabbaabc
 :-> solution=aabbabca <-:
 
+<--->
+
 abcdefgh
 :-> solution=abcdffaa <-:
+
+<--->
 
 ghijklmn
 :-> solution=ghjaabcc <-:
 
-*-*-*
+<===>
 
 ghijklmn
 :-> solution=ghjaabcc <-:
