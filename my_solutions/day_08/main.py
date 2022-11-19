@@ -1,14 +1,11 @@
-from puzzle_solver import PuzzleSolver, run_puzzle_solver
 from pprint import pprint
+
 import re
 
 
-delimiter = "\n"
-
-
-class DayPuzzleSolver(PuzzleSolver):
-    def __init__(self, input_file, delimiter):
-        PuzzleSolver.__init__(self, input_file, delimiter)
+class DayPuzzleSolver():
+    def __init__(self):
+        self.delimiter = "\n"
 
     def _get_list_of_strings(self, raw_input):
         strings = []
@@ -52,7 +49,3 @@ class DayPuzzleSolver(PuzzleSolver):
         strings = self._get_list_of_strings(raw_input)
         encoded_strings = self._encode_strings(strings)
         return self._count_code_chars(encoded_strings) - self._count_code_chars(strings)
-
-
-if __name__ == '__main__':
-    run_puzzle_solver(DayPuzzleSolver, delimiter)
