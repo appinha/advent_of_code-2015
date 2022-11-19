@@ -1,16 +1,13 @@
-from puzzle_solver import PuzzleSolver, run_puzzle_solver
 from pprint import pprint
+
 import re
 
 
-delimiter = "\n"
+class DayPuzzleSolver():
+    def __init__(self):
+        self.delimiter = "\n"
 
-
-class DayPuzzleSolver(PuzzleSolver):
-    def __init__(self, input_file, delimiter):
-        PuzzleSolver.__init__(self, input_file, delimiter)
-
-    def count_nice_strings(self, raw_input, check_rules):
+    def _count_nice_strings(self, raw_input, check_rules):
         count = 0
         for string in raw_input:
             if check_rules(string):
@@ -26,7 +23,7 @@ class DayPuzzleSolver(PuzzleSolver):
 
             return has_vowels and has_repeated and all(hasnt_forbidden)
 
-        return self.count_nice_strings(raw_input, check_rules)
+        return self._count_nice_strings(raw_input, check_rules)
 
     def solve_part_2(self, raw_input):
 
@@ -42,8 +39,4 @@ class DayPuzzleSolver(PuzzleSolver):
 
             return has_pairs and has_repeated
 
-        return self.count_nice_strings(raw_input, check_rules)
-
-
-if __name__ == '__main__':
-    run_puzzle_solver(DayPuzzleSolver, delimiter)
+        return self._count_nice_strings(raw_input, check_rules)
