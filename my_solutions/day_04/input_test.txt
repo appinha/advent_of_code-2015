@@ -1,10 +1,12 @@
 abcdef
 :-> solution=609043 <-:
 
+<--->
+
 pqrstuv
 :-> solution=1048970 <-:
 
-*-*-*
+<===>
 
 abcdef
-:-> solution=0 <-:
+:-> solution=? <-:

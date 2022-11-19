@@ -1,16 +1,13 @@
-from puzzle_solver import PuzzleSolver, run_puzzle_solver
 from pprint import pprint
+
 import hashlib
 
 
-delimiter = ""
+class DayPuzzleSolver():
+    def __init__(self):
+        self.delimiter = ""
 
-
-class DayPuzzleSolver(PuzzleSolver):
-    def __init__(self, input_file, delimiter):
-        PuzzleSolver.__init__(self, input_file, delimiter)
-
-    def find_decimal(self, raw_input, startswith):
+    def _find_decimal(self, raw_input, startswith):
         decimal = 1
         while True:
             test = raw_input + str(decimal)
@@ -21,11 +18,7 @@ class DayPuzzleSolver(PuzzleSolver):
         return decimal
 
     def solve_part_1(self, raw_input):
-        return self.find_decimal(raw_input, '00000')
+        return self._find_decimal(raw_input, '00000')
 
     def solve_part_2(self, raw_input):
-        return self.find_decimal(raw_input, '000000')
-
-
-if __name__ == '__main__':
-    run_puzzle_solver(DayPuzzleSolver, delimiter)
+        return self._find_decimal(raw_input, '000000')
