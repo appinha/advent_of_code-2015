@@ -9,7 +9,7 @@ j RSHIFT 4 -> m
 m OR n -> a
 :-> solution=-1 <-:
 
-*-*-*
+<===>
 
 123 -> a
 :-> solution=123 <-:

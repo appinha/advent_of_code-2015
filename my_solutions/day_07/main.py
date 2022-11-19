@@ -1,15 +1,12 @@
-from puzzle_solver import PuzzleSolver, run_puzzle_solver
-from helpers import is_str, str_to_int
 from pprint import pprint
+
+from helpers import is_str, str_to_int
 from collections import defaultdict
 
 
-delimiter = "\n"
-
-
-class DayPuzzleSolver(PuzzleSolver):
-    def __init__(self, input_file, delimiter):
-        PuzzleSolver.__init__(self, input_file, delimiter)
+class DayPuzzleSolver():
+    def __init__(self):
+        self.delimiter = "\n"
 
     def _get_input(self, raw_input):
         instructions_by_wire = defaultdict(list)
@@ -76,7 +73,3 @@ class DayPuzzleSolver(PuzzleSolver):
         instructions_by_wire, signal_by_wire = self._get_input(raw_input)
         signal_by_wire['b'] = 3176
         return self._assemble_circuit(instructions_by_wire, signal_by_wire)
-
-
-if __name__ == '__main__':
-    run_puzzle_solver(DayPuzzleSolver, delimiter)
