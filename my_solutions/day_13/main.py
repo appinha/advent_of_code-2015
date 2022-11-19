@@ -1,16 +1,13 @@
-from puzzle_solver import PuzzleSolver, run_puzzle_solver
-from helpers import get_unique_permutations
 from pprint import pprint
+
+from helpers import get_unique_permutations
 from collections import defaultdict
 import itertools
 
 
-delimiter = "\n"
-
-
-class DayPuzzleSolver(PuzzleSolver):
-    def __init__(self, input_file, delimiter):
-        PuzzleSolver.__init__(self, input_file, delimiter)
+class DayPuzzleSolver():
+    def __init__(self):
+        self.delimiter = "\n"
 
     def _get_input(self, raw_input):
         change_by_guest_by_guest = defaultdict(dict)
@@ -60,7 +57,3 @@ class DayPuzzleSolver(PuzzleSolver):
     def solve_part_2(self, raw_input):
         change_by_guest_by_guest = self._get_new_input(raw_input)
         return max(self._get_all_possible_total_happiness(change_by_guest_by_guest))
-
-
-if __name__ == '__main__':
-    run_puzzle_solver(DayPuzzleSolver, delimiter)
