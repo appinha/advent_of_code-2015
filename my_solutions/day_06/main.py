@@ -1,15 +1,12 @@
-from puzzle_solver import PuzzleSolver, run_puzzle_solver
 from pprint import pprint
+
 import re
 import numpy as np
 
 
-delimiter = "\n"
-
-
-class DayPuzzleSolver(PuzzleSolver):
-    def __init__(self, input_file, delimiter):
-        PuzzleSolver.__init__(self, input_file, delimiter)
+class DayPuzzleSolver():
+    def __init__(self):
+        self.delimiter = "\n"
 
     def _get_instructions(self, raw_input):
 
@@ -74,7 +71,3 @@ class DayPuzzleSolver(PuzzleSolver):
 
         grid = self._get_resulting_grid(raw_input, "0", execute_action)
         return grid.sum()
-
-
-if __name__ == '__main__':
-    run_puzzle_solver(DayPuzzleSolver, delimiter)
