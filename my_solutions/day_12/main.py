@@ -1,16 +1,13 @@
-from puzzle_solver import PuzzleSolver, run_puzzle_solver
-from helpers import is_dict, is_number, is_str
 from pprint import pprint
+
+from helpers import is_dict, is_number, is_str
 import re
 import json
 
 
-delimiter = ""
-
-
-class DayPuzzleSolver(PuzzleSolver):
-    def __init__(self, input_file, delimiter):
-        PuzzleSolver.__init__(self, input_file, delimiter)
+class DayPuzzleSolver():
+    def __init__(self):
+        self.delimiter = ""
 
     def _find_all_numbers(self, string):
         return list(map(int, re.findall(r'[0-9\-]+', string)))
@@ -32,7 +29,3 @@ class DayPuzzleSolver(PuzzleSolver):
     def solve_part_2(self, raw_input):
         data = json.loads(raw_input)
         return self._rec_sum(data)
-
-
-if __name__ == '__main__':
-    run_puzzle_solver(DayPuzzleSolver, delimiter)
