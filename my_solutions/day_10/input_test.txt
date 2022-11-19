@@ -1,14 +1,27 @@
 1
-:-> solution=2 <-:
+:-> solution=82350 <-:
+
+<--->
 
 11
-:-> solution=2 <-:
+:-> solution=107312 <-:
+
+<--->
 
 21
-:-> solution=4 <-:
+:-> solution=139984 <-:
+
+<--->
 
 1211
-:-> solution=6 <-:
+:-> solution=182376 <-:
+
+<--->
 
 111221
-:-> solution=6 <-:
+:-> solution=237746 <-:
+
+<===>
+
+1
+:-> solution=1166642 <-:
