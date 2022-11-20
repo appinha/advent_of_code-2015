@@ -1,6 +1,7 @@
+import sys; sys.path.insert(0, '..')
+import aoc_lib as lib
 from pprint import pprint
 
-import itertools as it
 import numpy as np
 
 
@@ -15,7 +16,7 @@ class DayPuzzleSolver():
         areas = []
         for string in raw_input:
             box_dimensions = self._get_box_dimensions(string)
-            side_dimensions = list(it.combinations(box_dimensions, 2))
+            side_dimensions = lib.list_combinations(box_dimensions, 2)
             side_areas = [np.prod(dim) for dim in side_dimensions]
             box_area = 2 * sum(side_areas)
             slack = min(side_areas)
