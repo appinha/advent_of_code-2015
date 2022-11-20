@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
-	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/appinha/adventofcode_2015?color=blueviolet" />
-	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/appinha/adventofcode_2015?color=blueviolet" />
-	<img alt="Code language count" src="https://img.shields.io/github/languages/count/appinha/adventofcode_2015?color=blue" />
-	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/appinha/adventofcode_2015?color=blue" />
-	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/appinha/adventofcode_2015?color=brightgreen" />
+	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/appinha/advent_of_code-2015?color=blueviolet" />
+	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/appinha/advent_of_code-2015?color=blueviolet" />
+	<img alt="Code language count" src="https://img.shields.io/github/languages/count/appinha/advent_of_code-2015?color=blue" />
+	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/appinha/advent_of_code-2015?color=blue" />
+	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/appinha/advent_of_code-2015?color=brightgreen" />
 </p>
 
 <h3 align="center">
@@ -51,13 +51,13 @@
 
 ## 🌟 What is *Advent of Code*?
 
-	🚀 TLDR: an online event where a two-part programming puzzle is released each day from Dec 1st to 25th.
+	🚀 TLDR: an online event where a two-part programming puzzle is released each day from Dec 1st to the 25th.
 
 [Advent of Code](http://adventofcode.com) is an online event created by [Eric Wastl](http://was.tl/). In his words:
 
 > Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as a speed contest, interview prep, company training, university coursework, practice problems, or to challenge each other.
 
-*Source: https://adventofcode.com/about*
+Source: https://adventofcode.com/about
 
 ### 🎄 This year story for the puzzles
 
@@ -68,12 +68,6 @@
 ## 📑 Contents
 
 My solutions for the puzzles are available in the folder [📁 my_solutions](my_solutions) and are organized into subfolders for each day of the event.
-
-In this folder's root, the following files can be found:
-
-* `puzzle_solver.py` - main framework developed to streamline coding.
-* `solve_puzzles.py` - script for running the puzzle solving codes.
-* `Makefile` - used for starting the execution of the above script.
 
 Inside each subfolder, the following files can be found:
 
