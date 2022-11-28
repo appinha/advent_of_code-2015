@@ -1,6 +1,7 @@
+import sys; sys.path.insert(0, '..')
+import aoc_lib as lib
 from pprint import pprint
 
-from helpers import is_str, str_to_int
 from collections import defaultdict
 
 
@@ -16,14 +17,14 @@ class DayPuzzleSolver():
             if raw_instruction.isdigit():
                 signal_by_wire[receiver] = int(raw_instruction)
             else:
-                instructions_by_wire[receiver] = list(map(str_to_int, raw_instruction.split()))
+                instructions_by_wire[receiver] = list(map(lib.str_to_int, raw_instruction.split()))
         return instructions_by_wire, signal_by_wire
 
     def _follow_instructions(self, instructions_by_wire, signal_by_wire):
 
         def is_solvable(instruction):
             for item in instruction:
-                if is_str(item) and item.islower():
+                if lib.is_str(item) and item.islower():
                     return False
             return True
 
