@@ -1,6 +1,7 @@
+import sys; sys.path.insert(0, '..')
+import aoc_lib as lib
 from pprint import pprint
 
-from helpers import is_dict, is_number, is_str
 import re
 import json
 
@@ -13,11 +14,11 @@ class DayPuzzleSolver():
         return list(map(int, re.findall(r'[0-9\-]+', string)))
 
     def _rec_sum(self, data):
-        if is_number(data): # base case 1
+        if lib.is_number(data): # base case 1
             return data
-        if is_str(data): # base case 2
+        if lib.is_str(data): # base case 2
             return 0
-        if is_dict(data):
+        if lib.is_dict(data):
             data = data.values()
             if "red" in data:
                 return 0
