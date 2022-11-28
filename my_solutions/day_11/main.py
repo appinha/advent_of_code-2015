@@ -1,6 +1,7 @@
+import sys; sys.path.insert(0, '..')
+import aoc_lib as lib
 from pprint import pprint
 
-from helpers import groupby
 from string import ascii_lowercase
 
 
@@ -43,7 +44,7 @@ class DayPuzzleSolver():
         return False
 
     def _has_pairs(self, password):
-        pairs = [g["element"] for g in groupby(password) if len(g["occurrences"]) > 1]
+        pairs = [g["item"] for g in lib.count_occurrences(password) if g["occurrences"] > 1]
         return len(set(pairs)) > 1
 
     def _check_requirements(self, password):
