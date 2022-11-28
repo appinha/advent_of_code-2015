@@ -1,6 +1,7 @@
+import sys; sys.path.insert(0, '..')
+import aoc_lib as lib
 from pprint import pprint
 
-from helpers import get_unique_permutations
 from collections import defaultdict
 import re
 
@@ -27,7 +28,7 @@ class DayPuzzleSolver():
 
         location_by_location_by_distance = self._get_input(raw_input)
         locations = list(location_by_location_by_distance.keys())
-        permutations = get_unique_permutations(locations)
+        permutations = lib.list_unique_permutations(locations)
 
         distances = []
         for locations in permutations:
