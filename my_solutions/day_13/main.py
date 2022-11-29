@@ -3,7 +3,6 @@ import aoc_lib as lib
 from pprint import pprint
 
 from collections import defaultdict
-import itertools
 
 
 class DayPuzzleSolver():
@@ -34,7 +33,7 @@ class DayPuzzleSolver():
                 happiness += amount if type == 'gain' else -amount
             return happiness
 
-        table = itertools.cycle(guests)
+        table = lib.cycle(guests)
         next(table)
         prev = guests[-1]
         total_happiness = []
