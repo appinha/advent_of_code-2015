@@ -44,7 +44,11 @@ class DayPuzzleSolver():
         return False
 
     def _has_pairs(self, password):
-        pairs = [g["item"] for g in lib.count_occurrences(password) if g["occurrences"] > 1]
+        pairs = [
+            g["item"]
+            for g in lib.count_sequenced_occurrences(password)
+            if g["occurrences"] > 1
+        ]
         return len(set(pairs)) > 1
 
     def _check_requirements(self, password):

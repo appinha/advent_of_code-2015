@@ -9,7 +9,7 @@ class DayPuzzleSolver():
 
     def _look_and_say(self, digits):
         result = ""
-        for occurrences_by_digit in lib.count_occurrences(digits):
+        for occurrences_by_digit in lib.count_sequenced_occurrences(digits):
             result += str(occurrences_by_digit["occurrences"]) + occurrences_by_digit["item"]
         return result
 
