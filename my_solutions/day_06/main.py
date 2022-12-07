@@ -2,6 +2,7 @@ import sys; sys.path.insert(0, '..')
 import aoc_lib as lib
 from pprint import pprint
 
+from aoc_lib import NumpyGrid
 import re
 
 
@@ -26,7 +27,7 @@ class DayPuzzleSolver():
 
     def _get_resulting_grid(self, raw_input, default_value, execute_action):
         instructions = self._get_instructions(raw_input)
-        grid = lib.np_generate((1000, 1000), default_value)
+        grid = NumpyGrid.generate((1000, 1000), default_value)
 
         for instruction in instructions:
             action = instruction["action"]
@@ -41,11 +42,11 @@ class DayPuzzleSolver():
 
         def execute_action(action, grid, s1, s2, e1, e2):
             if action == "turn on":
-                return lib.np_generate((e1-s1, e2-s2), True)
+                return NumpyGrid.generate((e1-s1, e2-s2), True)
             if action == "turn off":
-                return lib.np_generate((e1-s1, e2-s2), False)
+                return NumpyGrid.generate((e1-s1, e2-s2), False)
             if action == "toggle":
-                return lib.np_invert(grid[s1:e1, s2:e2])
+                return NumpyGrid.invert(grid[s1:e1, s2:e2])
 
         grid = self._get_resulting_grid(raw_input, False, execute_action)
         return grid.sum()

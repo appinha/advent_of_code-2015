@@ -28,7 +28,7 @@ class DayPuzzleSolver():
 
         location_by_location_by_distance = self._get_input(raw_input)
         locations = list(location_by_location_by_distance.keys())
-        permutations = lib.list_unique_permutations(locations)
+        permutations = lib.list_unique_permutations(locations, include_reversed=True)
 
         distances = []
         for locations in permutations:

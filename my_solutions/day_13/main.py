@@ -44,7 +44,7 @@ class DayPuzzleSolver():
 
     def _get_all_possible_total_happiness(self, change_by_guest_by_guest):
         guests = change_by_guest_by_guest.keys()
-        guest_permutations = lib.list_unique_permutations(guests)
+        guest_permutations = lib.list_unique_permutations(guests, include_reversed=True)
         return [
             self._get_total_happiness(guests, change_by_guest_by_guest)
             for guests in guest_permutations
